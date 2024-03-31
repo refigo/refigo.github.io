@@ -4,3 +4,8 @@
 @import 'main';
 
 /* append your custom style below */
+
+.table-wrapper th,
+.table-wrapper td {
+  white-space: pre-wrap !important;
+}
