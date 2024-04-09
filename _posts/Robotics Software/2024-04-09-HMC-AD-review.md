@@ -26,7 +26,7 @@ image:
 
 작년인 2023년 7월 초에 H-Mobility Class 모집 공고를 접했다.
 
-[해당 모집 공고](/assets/img/posts/Robotics%20Software/HMC-AD-review/https://hmg-scholar.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=145865)
+[해당 모집 공고](https://hmg-scholar.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=145865)
 
 ![](/assets/img/posts/Robotics%20Software/HMC-AD-review/HMC-AD-announcement-top.png)
 
@@ -46,8 +46,8 @@ H-Mobility Class는 현대자동차에서 미래 모빌리티 산업을 이끌�
 이유는 로봇 소프트웨어 구조와 자율주행 소프트웨어 구조가 거의 같다고 파악했기 때문이다.
 그래서 자율주행 소프트웨어의 구조를 파악하면 로봇 소프트웨어의 구조도 이해할 수 있으리라 생각했다.
 
-2021년에 현대자동차는 보스턴 다이내믹스를 인수했다. - [Hyundai Motor Group Completes Acquisition of Boston Dynamics from Softbank](/assets/img/posts/Robotics%20Software/HMC-AD-review/https://bostondynamics.com/news/hyundai-motor-group-completes-acquisition-of-boston-dynamics-from-softbank/)
-또한 다음 년도에 테슬라는 AI 데이에서 테슬라봇을 공개했다. - [Tesla CEO Elon Musk unveils prototype humanoid Optimus robot](/assets/img/posts/Robotics%20Software/HMC-AD-review/https://www.theverge.com/2022/9/30/23374729/tesla-bot-ai-day-robot-elon-musk-prototype-optimus-humanoid)
+2021년에 현대자동차는 보스턴 다이내믹스를 인수했다. - [Hyundai Motor Group Completes Acquisition of Boston Dynamics from Softbank](https://bostondynamics.com/news/hyundai-motor-group-completes-acquisition-of-boston-dynamics-from-softbank/)
+또한 다음 년도에 테슬라는 AI 데이에서 테슬라봇을 공개했다. - [Tesla CEO Elon Musk unveils prototype humanoid Optimus robot](https://www.theverge.com/2022/9/30/23374729/tesla-bot-ai-day-robot-elon-musk-prototype-optimus-humanoid)
 자율주행자동차 기업들이 자율주행 개발에 사용된 AI를 활용하는 방안으로 로봇 사업을 택하는 것을 볼 수 있다.
 외관이 다를 뿐이지 사실상 자율주행자동차와 로봇의 소프트웨어는 거의 같은 구조라고 할 수 있는 것이다.
 
