@@ -18,3 +18,6 @@ package-lock.json
 .idea
 
 # Misc
+
+
+.DS_Store
