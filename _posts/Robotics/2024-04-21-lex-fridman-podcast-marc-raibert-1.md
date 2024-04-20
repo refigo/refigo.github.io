@@ -8,7 +8,7 @@ tags: [Robotics]
 이 게시글은 Lex Fridman Podcast의 Script 내용과 이를 번역한 글입니다.
 
 - 원본 영상
-  - [Marc Raibert: Boston Dynamics and the Future of Robotics | Lex Fridman Podcast #412](https://www.youtube.com/watch?v=5VnbBCm_ZyQ "Marc Raibert: Boston Dynamics and the Future of Robotics | Lex Fridman Podcast #412")
+  - [Marc Raibert: Boston Dynamics and the Future of Robotics | Lex Fridman Podcast #412](https://www.youtube.com/watch?v=5VnbBCm_ZyQ)
 
 ### Introduction
 
