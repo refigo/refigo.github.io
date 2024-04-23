@@ -79,7 +79,7 @@ tags: [Robotics]
   하지만 제가 수업을 마치고 돌아가 교수님을 따라갔을 때는 대학원 과정 중이었고, MIT의 베르톨트 선생님이었고 중간(임시) 수업을 듣고 있었습니다.
   IAP, 독립 활동 기간입니다.
   그리고 저는 그를 따라 그의 연구실로 돌아갔습니다.
-  그리고 테이블에는 바이크 팔이 있었는데 아마 1,000 조각 정도로 분해된 로봇팔이었습니다.
+  그리고 테이블에는 바이크 팔이 있었는데 아마 1,000 조각 정도로 분해된 로봇팔이었습니다.
   그리고 그걸 봤을 때, 그 날부터 저는 로봇공학자였습니다.
 
 [2]
@@ -90,6 +90,14 @@ tags: [Robotics]
 - [Marc] Yeah.
 - And you saw the pieces and you saw in your vision, the arm when it's put back together and the possibilities that holds.
 - Somehow it spurred my imagination.
+  I was in the brain and cognitive sciences department as a graduate student doing neurophysiology.
+  I'd been an electrical engineer as an undergrad at Northeastern.
+  And the neurophysiology wasn't really working for me.
+  You know, it wasn't conceptual enough.
+  **I couldn't see really how by looking at single neurons, you were gonna get to a place where you could understand, you know, control systems or thought or anything like that.**
+  And, you know, the AI lab was always an appealing, this was before C-SAIL right?
+  This was in the '70s so the AI lab was always an appealing idea.
+  And so when I went back to the AI lab following him and I saw the arm, I just thought, you know, this is it.
 
 [2-ko]
 
@@ -98,3 +106,12 @@ tags: [Robotics]
 - 1974년. 그러니까 거기 그냥 팔이 조각나 있구요.
 - [Marc] 네.
 - 그리고 당신은 그 조각들을 보았고 당신의 비전에서 그 팔이 다시 조립됐을 때와 그것이 유지되는 가능성을 보았군요.
+- 어쩐지 그게 내 상상력을 자극했어요.
+  저는 대학원생으로 뇌 인지 과학과에서 신경생리학을 공부하고 있었죠.
+  저는 Northeastern에서 학부생으로 전기 기술자로 일했습니다.
+  그리고 신경생리학은 저에게 실제 효과가 없었어요.
+  알다시피, 그것은 개념적으로 충분하지 않았습니다.
+  단일 뉴런을 관찰함으로써 어떻게 제어 시스템이나 생각 등을 이해할 수 있는 지점에 도달할 수 있는지 알 수 없었습니다.
+  그리고 아시다시피 AI 연구실은 언제나 매력적이었습니다. C-SAIL 이전이었지요?
+  당시는 70년대였기 때문에 AI 연구실은 항상 매력적인 아이디어였습니다.
+  그래서 그를 따라 AI 연구실로 들어가서 팔을 봤을 때, 저는 그렇게 생각했죠, 그게 다에요.
