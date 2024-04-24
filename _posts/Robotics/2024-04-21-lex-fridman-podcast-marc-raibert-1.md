@@ -54,7 +54,7 @@ tags: [Robotics]
 
 ### Early robots
 
-[1]
+[1 - 1:43 ~ 2:58]
 
 - When did you first fall in love with the robotics?
 - Well, I was always a builder from a young age.
@@ -82,7 +82,7 @@ tags: [Robotics]
   그리고 테이블에는 바이크 팔이 있었는데 아마 1,000 조각 정도로 분해된 로봇팔이었습니다.
   그리고 그걸 봤을 때, 그 날부터 저는 로봇공학자였습니다.
 
-[2]
+[2 - 2:59 ~ 3:58]
 
 - Do you remember the year?
 - [Marc] 1974.
@@ -115,3 +115,27 @@ tags: [Robotics]
   그리고 아시다시피 AI 연구실은 언제나 매력적이었습니다. C-SAIL 이전이었지요?
   당시는 70년대였기 때문에 AI 연구실은 항상 매력적인 아이디어였습니다.
   그래서 그를 따라 AI 연구실로 들어가서 팔을 봤을 때, 저는 그렇게 생각했죠, 그게 다에요.
+
+[3 - 3:59 ~ 4:47]
+
+- It's so interesting the tension between the BCS, brain cognitive science approach to understanding intelligence and the robotics approach to understanding intelligence.
+- Well, BCS is now morphed a bit, right?
+  They have the Center for Brains, Minds and Machines, which is trying to bridge that gap.
+  And even when I was there, you know, David Maher was in the AI lab.
+  David Maher had models of the brain that were appealing both to biologists, but also to computer people.
+  So he was a visitor in the AI lab at the time, and I guess he became full-time there.
+  So that was the first time a bridge was made between those two groups.
+  Then the bridge kind of went away and then there was another time in the '80s.
+  And then recently, you know, the last five or so years, there's been a stronger connection.
+
+[3-ko]
+
+- 지능을 이해하기 위한 뇌 인지 과학 접근 방식인 BCS와 지능을 이해하기 위한 로봇 공학 접근 방식 사이의 긴장이 매우 흥미롭네요.
+- 음, BCS는 이제 조금 변형됐죠?
+  그들은 그 격차를 해소하기 위해 노력하는 두뇌, 정신 및 기계 센터를 보유하고 있습니다.
+  제가 그곳에 있을 때도, David Maher는 AI 연구실에 있었습니다.
+  David Maher는 생물학자 뿐만 아니라 컴퓨터 사람들에게도 매력적인 뇌 모델을 가지고 있었습니다.
+  그래서 그는 그 당시 AI 연구실의 방문자였고, 그곳에서 정규직이 된 것 같아요.
+  그래서 두 그룹 사이에 첫 번째 다리가 만들어졌습니다.
+  그런 다음 다리가 사라지고 80년대에 또 다른 시기가 있었습니다.
+  그리고 최근, 지난 5년 정도 동안 더욱 강력한 연결이 이루어졌습니다.
