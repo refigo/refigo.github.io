@@ -139,3 +139,53 @@ tags: [Robotics]
   그래서 두 그룹 사이에 첫 번째 다리가 만들어졌습니다.
   그런 다음 다리가 사라지고 80년대에 또 다른 시기가 있었습니다.
   그리고 최근, 지난 5년 정도 동안 더욱 강력한 연결이 이루어졌습니다.
+
+[4 - 4:48 ~ 5:26]
+
+- You said you were always kind of a builder.
+  What stands out to you in memory of a thing you've built?
+  Maybe a trivial thing that just kind of like inspired, inspired you in the possibilities that this direction of work might hold?
+
+- 당신은 항상 빌더였다고 하셨죠.
+  당신이 만든 것 중 기억에 남는 것은 무엇인가요?
+  아마도 영감을 받은 사소한 일이 이 작업 방향이 가질 수 있는 가능성에 대해 영감을 주었을까요?
+
+- I mean, we were just doing gadgets when we were kids.
+  I have a friend, we were taking, you know the... I don't know if everybody remembers, but fluorescent lights had this little aluminum cylinder, I can't even remember what it's called now, that you needed a starter, I think it was.
+  And we would take those apart, fill 'em with match heads, put a tail on it, and make it into little rockets.
+
+- 내 말은, 우리는 어렸을 때 그저 도구를 만들고 있었을 뿐이라는 거죠.
+  저의 한 친구가 있어요, 우리가 가져간게 있는데... 모두가 기억할지 모르겠지만, 형광등에는 이 작은 알루미늄 원통이 있었는데, 지금은 그것을 뭐라고 부르는지 조차 기억나지 않는데요, 스타터가 필요하댔던 것 같아요.
+  그리고 우리는 그것을 분해해서, 성냥개비로 채우고, 그 위에 꼬리를 달고, 작은 로켓을 만들었습니다.
+
+[5 - 5:27 ~ 6:46]
+
+- So it wasn't always about function, it was-
+- [Marc] Well, a rocket was pretty much function.
+- I guess that is pretty functional.
+  But yeah, I guess that is a question.
+  How much was it about function versus just creating something cool?
+
+- 항상 기능에 관한 것은 아니었군요.
+- [Marc] 음, 로켓은 거의 기능에 관한 것이었습니다. ㅋㅋㅋ
+- 꽤 기능적인 것 같아요. ㅋㅋㅋㅋ
+  하지만 네, 그게 질문인 것 같아요.
+  멋진 것을 만드는 것보다 기능에 더 중점을 두었나요?
+
+- I think it's still a balance between those two.
+  **There was a time though, when I was, I guess I was probably already a professor or maybe late in graduate school when I thought that function was everything.**
+  And that, you know, mobility, dexterity, perception and intelligence, those are sort of the key functionalities for robotics, that that's what mattered and nothing else mattered.
+  And I even had kind of this platonic ideal that a robot, if you just looked at a robot and it wasn't doing anything, it would look like a pile of junk, which a lot of my robots looked like in those days.
+  But then when it started moving, you'd get the idea that it had some kind of life or some kind of interest in its movement.
+  And I think we purposely even designed the machines, not worrying about the aesthetics of the structure itself.
+  But then you know, it turns out that the aesthetics of the thing itself add and combine with the lifelike things that the robots can do.
+  But the heart of it is, you know, making them do things that are interesting.
+
+- 아직은 둘 사이의 균형이 맞는 것 같아요.
+  하지만 제가 이미 교수가 되었거나 대학원에 늦게 입학했을 때 기능이 전부라고 생각했던 때가 있었습니다.
+  그리고 아시다시피 이동성, 민첩성, 지각 및 지능은 로봇 공학의 핵심 기능이며, 그것이 중요하고 다른 것은 중요하지 않습니다.
+  그리고 저는 아무 일도 하지 않는 로봇을 보면 쓰레기 더미 처럼 보일 것이라는 로봇에 대한 플라토닉한 이상을 갖고 있었습니다. 그 당시 제가 만든 많은 로봇은 그런 모습이었습니다.
+  그러나 그것이 움직이기 시작하면, 그것이 어떤 종류의 생명을 갖고 있거나 그 움직임에 어떤 종류의 관심을 가지고 있다는 생각을 갖게 될 것입니다.
+  그리고 우리는 구조 자체의 미적인 측면을 고려하지 않고 의도적으로 기계를 설계했다고 생각해요.
+  하지만 알고 보면, 사물 자체의 미학이 로봇이 할 수 있는 생명체와 같은 일과 더해지고 결합된다는 사실이 밝혀지죠.
+  하지만 그것의 핵심은, 아시다시피, 그들이 흥미로운 일을 하도록 만드는 것입니다.
