@@ -10,7 +10,7 @@ tags: [Robotics]
 원본 영상:
 [Marc Raibert: Boston Dynamics and the Future of Robotics | Lex Fridman Podcast #412](https://www.youtube.com/watch?v=5VnbBCm_ZyQ)
 
-### Introduction
+## Introduction
 
 [1]
 
@@ -19,8 +19,6 @@ tags: [Robotics]
 - It was designed to carry 400, but we had it carrying about 1,000 pounds at one time.
 - Of course you did, just to make sure.
 - **We had one carrying the other one, we had two of them so we had one carrying the other one.**
-
-[1-ko]
 
 - 그래서 빅독은 LS3가 되었고 그것은 무거운 짐을 들 수 있죠.
 - [Lex] 잠깐 살펴보죠. 400 파운드를 들 수 있네요.
@@ -33,8 +31,6 @@ tags: [Robotics]
 - So one of the things that stands out about the robots Boston Dynamics have created is how beautiful the movement is, how natural the walking is, and running is even flipping when it's throwing so maybe you can talk about what's involved in making it look natural.
 - [Marc] Well, I think having good hardware is part of the story, and people who think you don't need to innovate hardware anymore are wrong.
 
-[2-ko]
-
 - 그래서 보스턴 다이내믹스가 만든 로봇들의 눈에 띄는 점들 중 하나는 움직임이 얼마나 아름답고, 걸음이 얼마나 자연스러운지, 뛰는 것도 심지어 던지면서 뒤집히면서도요. 아마도 무엇이 그것을 자연스럽게 보이게 하는 데 무엇이 관련되어 있는지에 대해 이야기 해주실 수 있을 것 같아요.
 - [Marc] 음, 저는 좋은 하드웨어가 그 이야기의 일부라고 생각하고, 더 이상 하드웨어의 발전이 필요하지 않다고 생각하는 사람들은 틀렸어요.
 
@@ -45,14 +41,12 @@ tags: [Robotics]
   This was a big honor and pleasure for me.
   This is the Lex Fridman podcast. To support it, please check out our sponsors in the description. And now, dear friends, here's Marc Raibert.
 
-[3-ko]
-
 - 이후는 Marc Raibert와의 대화입니다. 그는 전설적인 로봇 공학자 창업자이자 오랜 기간 보스턴 다이내믹스의 CEO이자 최근에 새로 만들어진 보스턴 다이내믹스 AI 연구소의 전무 이사이죠. 해당 연구소는 오늘날 존재하는 것 보다 훨씬 나은 미래 세대의 로봇을 만드는 연구와 첨단 기술에 초점을 맞추고 있습니다.
   그는 CMU, MIT, 전설적인 MIT Leg 연구소, 그리고 물론 보스턴 다이내믹스에서 빅독, 아틀라스, 스팟, 핸들과 같은 놀라운 로봇들로 굉장한 다리 달린 로봇을 만드는 데 40년 이상을 이끌고 있습니다.
   이것은 저에게 큰 영광이고 기쁨이었습니다.
   이것은 Lex Fridman 팟캐스트입니다. 도움을 주시기위해서는, 설명에 있는 스폰서들을 확인해주세요. 그럼 이제, 친애하는 친구들, Marc Raibert 입니다.
 
-### Early robots
+## Early robots
 
 [1 - 1:43 ~ 2:58]
 
@@ -67,8 +61,6 @@ tags: [Robotics]
   And I followed him back to his lab.
   And on the table was a vyke arm, robot arm taken apart in probably 1,000 pieces.
   And when I saw that, you know, from that day on, I was a roboticist.
-
-[1-ko]
 
 - 로봇과 처음 사랑에 빠진 때는 언제인가요?
 - 음, 저는 어려서부터 언제나 빌더였죠.
@@ -99,8 +91,6 @@ tags: [Robotics]
   This was in the '70s so the AI lab was always an appealing idea.
   And so when I went back to the AI lab following him and I saw the arm, I just thought, you know, this is it.
 
-[2-ko]
-
 - 그 년도를 기억하시나요?
 - [Marc] 1974년.
 - 1974년. 그러니까 거기 그냥 팔이 조각나 있구요.
@@ -127,8 +117,6 @@ tags: [Robotics]
   So that was the first time a bridge was made between those two groups.
   Then the bridge kind of went away and then there was another time in the '80s.
   And then recently, you know, the last five or so years, there's been a stronger connection.
-
-[3-ko]
 
 - 지능을 이해하기 위한 뇌 인지 과학 접근 방식인 BCS와 지능을 이해하기 위한 로봇 공학 접근 방식 사이의 긴장이 매우 흥미롭네요.
 - 음, BCS는 이제 조금 변형됐죠?
@@ -173,8 +161,8 @@ tags: [Robotics]
   멋진 것을 만드는 것보다 기능에 더 중점을 두었나요?
 
 - I think it's still a balance between those two.
-  **There was a time though, when I was, I guess I was probably already a professor or maybe late in graduate school when I thought that function was everything.**
-  And that, you know, mobility, dexterity, perception and intelligence, those are sort of the key functionalities for robotics, that that's what mattered and nothing else mattered.
+  There was a time though, when I was, I guess I was probably already a professor or maybe late in graduate school when I thought that function was everything.
+  **And that, you know, mobility, dexterity, perception and intelligence, those are sort of the key functionalities for robotics, that that's what mattered and nothing else mattered.**
   And I even had kind of this platonic ideal that a robot, if you just looked at a robot and it wasn't doing anything, it would look like a pile of junk, which a lot of my robots looked like in those days.
   But then when it started moving, you'd get the idea that it had some kind of life or some kind of interest in its movement.
   And I think we purposely even designed the machines, not worrying about the aesthetics of the structure itself.
