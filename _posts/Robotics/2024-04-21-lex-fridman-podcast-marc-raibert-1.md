@@ -177,3 +177,47 @@ tags: [Robotics]
   그리고 우리는 구조 자체의 미적인 측면을 고려하지 않고 의도적으로 기계를 설계했다고 생각해요.
   하지만 알고 보면, 사물 자체의 미학이 로봇이 할 수 있는 생명체와 같은 일과 더해지고 결합된다는 사실이 밝혀지죠.
   하지만 그것의 핵심은, 아시다시피, 그들이 흥미로운 일을 하도록 만드는 것입니다.
+
+## Optimus robot
+
+[1 - 1:25:33 ~ 1:27:12]
+
+- Let me ask you about some competitors.
+- [Marc] Sure.
+- You've been complimentary of Elon and Tesla's work on Optimus Robot with their humanoid robot.
+  What do you think of their efforts there with the humanoid robot?
+
+- 몇몇 경쟁 업체들에 대해 물어보겠습니다.
+- [Marc] 물론이죠.
+- 당신은 휴머노이드 로봇을 이용한 Optimus Robot에 대한 Elon과 Tesla의 작업에 찬사를 보냈습니다.
+  그들의 노력에 대해 어떻게 생각하시나요?
+
+- You know, I really admire Elon as a technologist.
+  I think that what he did with Tesla, it was just totally mind boggling that he could go from this totally niche area that less than 1% of anybody seemed to be interested to making it so that essentially every car company in the world is trying to do what he's done so you gotta give it to him.
+  Then look at SpaceX, you know, he's basically replaced NASA if you could, that might be a little exaggeration, but not by much.
+  So you gotta admire the guy and I wouldn't count him out for anything.
+  I don't think Optimus is today is where Atlas is, for instance.
+  I don't know, it's a little hard to compare 'em to the other companies.
+  You know, I visited Figure.
+  I think they're doing well and they have a good team.
+  I've visited Apptronik and I think they have a good team and they're doing well.
+  But Elon has a lot of resources.
+  He has a lot of ambition.
+  I'd like to take some credit for his ambition, I think.
+  I think if I read between the lines, it's hard not to think that him seeing what Atlas is doing is a little bit of an inspiration.
+  I hope so.
+
+- 아시다시피, 저는 Elon을 기술자로서 정말 존경합니다.
+  내 생각에 그가 Tesla에서 한 일은 정말 놀라운데요. 1% 미만만이 갈 수 있는 틈새시장에서 갈 수 있다는 것이요. 본질적으로 세계의 모든 자동차 회사가 하고자 노력하고 있는 것을 그가 해왔고 그가 성취해야한다고 봐요.
+  SpaceX를 봐요, 아시다시피, 그는 기본적으로 NASA를 대체했어요. 약간 과장일 수 있지만 그리 심하지 않다고 생각해요.
+  그러니 그를 존경해야하고 저는 그를 어떤 이유로도 배제하지 않을 겁니다.
+  예를들어, 저는 오늘날 Optimus가 Atlas와 같은 포지션에 있다고 생각하지 않습니다.
+  다른 회사와 비교하기는 좀 어렵네요.
+  알다시피, 저는 Figure에 방문했습니다.
+  저는 그들이 잘하고 있고 좋은 팀을 가지고 있다고 생각합니다.
+  Apptronik을 방문했는데 좋은 팀이 있고 잘 하고 있는 것 같아요.
+  하지만 Elon은 많은 자원을 가지고 있습니다.
+  그는 야망이 많습니다.
+  저는 그의 야망에 대해 어느 정도 공로를 인정하고 싶다고 생각합니다.
+  어떤 의미냐면, 그가 Atlas가 하고 있는 일을 보는 것이 저에게 약간의 영감을 준다고 생각하지 않을 수 없을 것 같습니다.
+  저는 그러길 희망해요.
