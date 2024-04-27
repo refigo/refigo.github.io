@@ -178,6 +178,18 @@ tags: [Robotics]
   하지만 알고 보면, 사물 자체의 미학이 로봇이 할 수 있는 생명체와 같은 일과 더해지고 결합된다는 사실이 밝혀지죠.
   하지만 그것의 핵심은, 아시다시피, 그들이 흥미로운 일을 하도록 만드는 것입니다.
 
+## AI Institute
+
+[1 - 51:23 ~ 51:56]
+
+- [Lex] So this might be a good place to mention that you're now leading up the Boston Dynamics AI Institute newly formed, which is focused more on designing the robots of the future.
+  I think one of the things, maybe you can tell me the big vision for what's going on, but one of the things is this idea that hardware still matters with organic design and so on.
+  Maybe before that, can you zoom out and tell me what the vision is for the AI Institute?
+
+- [Lex] 그래서 지금이 아마 이번에 새로 설립된 보스턴 다이내믹스 AI 연구소(Boston Dynamics AI Institute)를 이끌고 계시다는 점을 언급하기 좋은 때인 것 같아요. 미래의 로봇 설계에 더 중점을 두고 있는 곳 말이죠.
+  제 생각에는 무슨 일이 일어나고 있는지에 대한 큰 비전을 말해 주실 수 있을 것 같지만, 그 중 하나는 하드웨어가 여전히 유기적 디자인 등에 중요하다는 생각입니다.
+  어쩌면 그 전에, AI 연구소의 비전이 무엇인지 말씀해 주시겠습니까?
+
 ## Optimus robot
 
 [1 - 1:25:33 ~ 1:27:12]
