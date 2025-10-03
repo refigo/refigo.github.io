@@ -1,112 +1,68 @@
 {
-  "name": "jekyll-theme-chirpy",
-  "version": "6.5.5",
-  "description": "A minimal, responsive, and feature-rich Jekyll theme for technical writing.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
-  },
-  "author": "Cotes Chung",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
-  },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
-  "scripts": {
-    "prebuild": "npx rimraf assets/js/dist",
-    "build": "NODE_ENV=production npx rollup -c --bundleConfigAsCjs",
-    "prewatch": "npx rimraf assets/js/dist",
-    "watch": "npx rollup -c --bundleConfigAsCjs -w",
-    "test": "npx stylelint _sass/**/*.scss",
-    "fixlint": "npm run test -- --fix"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.23.9",
-    "@babel/plugin-proposal-class-properties": "^7.18.6",
-    "@babel/preset-env": "^7.23.9",
-    "@commitlint/cli": "^18.6.1",
-    "@commitlint/config-conventional": "^18.6.2",
-    "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-terser": "^0.4.4",
-    "husky": "^9.0.11",
-    "rimraf": "^5.0.5",
-    "rollup": "^4.10.0",
-    "rollup-plugin-license": "^3.2.0",
-    "stylelint": "^16.2.1",
-    "stylelint-config-standard-scss": "^13.0.0"
-  },
-  "prettier": {
-    "trailingComma": "none"
-  },
-  "browserslist": [
-    "last 2 versions",
-    "> 0.2%",
-    "not dead"
-  ],
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "body-max-line-length": [
-        0,
-        "always"
-      ]
-    }
-  },
-  "stylelint": {
-    "extends": "stylelint-config-standard-scss",
-    "rules": {
-      "no-descending-specificity": null,
-      "shorthand-property-no-redundant-values": null,
-      "at-rule-no-vendor-prefix": null,
-      "property-no-vendor-prefix": null,
-      "selector-no-vendor-prefix": null,
-      "value-no-vendor-prefix": null,
-      "color-function-notation": "legacy",
-      "alpha-value-notation": "number",
-      "selector-not-notation": "simple",
-      "color-hex-length": "long",
-      "declaration-block-single-line-max-declarations": 3,
-      "scss/operator-no-newline-after": null,
-      "rule-empty-line-before": [
-        "always",
-        {
-          "ignore": [
-            "after-comment",
-            "first-nested"
-          ]
-        }
-      ],
-      "value-keyword-case": [
-        "lower",
-        {
-          "ignoreProperties": [
-            "/^\\$/"
-          ]
-        }
-      ],
-      "media-feature-range-notation": "prefix"
-    }
-  },
-  "standard-version": {
-    "skip": {
-      "commit": true,
-      "tag": true
-    },
-    "types": [
-      {
-        "type": "feat",
-        "section": "Features"
-      },
-      {
-        "type": "fix",
-        "section": "Bug Fixes"
-      },
-      {
-        "type": "perf",
-        "section": "Improvements"
-      }
-    ]
-  }
+	"name": "astro-cactus",
+	"type": "module",
+	"version": "6.9.0",
+	"private": false,
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"postbuild": "pagefind --site dist",
+		"preview": "astro preview",
+		"lint": "biome lint .",
+		"format": "pnpm run format:code && pnpm run format:imports",
+		"format:code": "biome format . --write && prettier -w \"**/*\" \"!**/*.{md,mdx}\" --ignore-unknown --cache",
+		"format:imports": "biome check --formatter-enabled=false --write",
+		"check": "astro check"
+	},
+	"dependencies": {
+		"@astrojs/markdown-remark": "^6.3.6",
+		"@astrojs/mdx": "4.3.5",
+		"@astrojs/rss": "4.0.12",
+		"@astrojs/sitemap": "3.5.1",
+		"@tailwindcss/vite": "4.1.13",
+		"astro": "5.13.7",
+		"astro-expressive-code": "^0.41.3",
+		"astro-icon": "^1.1.5",
+		"astro-robots-txt": "^1.0.0",
+		"astro-webmanifest": "^1.0.0",
+		"cssnano": "^7.1.1",
+		"hastscript": "^9.0.0",
+		"mdast-util-directive": "^3.0.0",
+		"mdast-util-to-markdown": "^2.1.2",
+		"mdast-util-to-string": "^4.0.0",
+		"rehype-autolink-headings": "^7.1.0",
+		"rehype-external-links": "^3.0.0",
+		"rehype-unwrap-images": "^1.0.0",
+		"remark-directive": "^4.0.0",
+		"satori": "0.18.2",
+		"satori-html": "^0.3.2",
+		"sharp": "^0.34.3",
+		"unified": "^11.0.5",
+		"unist-util-visit": "^5.0.0"
+	},
+	"devDependencies": {
+		"@astrojs/check": "^0.9.4",
+		"@biomejs/biome": "^2.2.4",
+		"@iconify-json/mdi": "^1.2.2",
+		"@pagefind/default-ui": "^1.4.0",
+		"@resvg/resvg-js": "^2.6.2",
+		"@tailwindcss/typography": "^0.5.16",
+		"@types/hast": "^3.0.4",
+		"@types/mdast": "^4.0.4",
+		"autoprefixer": "^10.4.21",
+		"pagefind": "^1.4.0",
+		"prettier": "^3.6.2",
+		"prettier-plugin-astro": "0.14.1",
+		"prettier-plugin-tailwindcss": "^0.6.14",
+		"reading-time": "^1.5.0",
+		"tailwindcss": "4.1.13",
+		"typescript": "^5.9.2"
+	},
+	"pnpm": {
+		"overrides": {
+			"sharp": "^0.34.2"
+		},
+		"onlyBuiltDependencies": ["@biomejs/biome", "@tailwindcss/oxide", "esbuild", "sharp"]
+	}
 }
