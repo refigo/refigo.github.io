@@ -1,5 +1,5 @@
 ---
-title: '"지금 카메라에 뭐가 보여?" LLM에게 ROS 로봇의 시야를 분석시켜 보았다 (ros-mcp-server 사용 연동 실습)'
+title: '"지금 카메라에 뭐가 보여?" ros-mcp-server로 LLM에게 ROS 로봇의 시야를 분석시켜 보았다'
 description: 내 로컬 로봇에 VLM(시각 언어 모델) 능력을 부여하는 방법. ros-mcp-server를 활용해 ROS 2 RealSense 카메라 토픽을 AI가 직접 구독하게 하고, 실시간으로 사물과 환경을 인식하여 자연어로 답변받는 멀티모달 실습 과정을 공유합니다.
 publishDate: "2025-11-25"
 updatedDate: "2025-11-25"
