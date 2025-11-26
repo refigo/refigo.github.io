@@ -10,6 +10,7 @@ tags:
   - AI Agent
   - LLM
 draft: false
+pinned: true
 ---
 
 
@@ -37,7 +38,7 @@ draft: false
 ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ```
 
-![이미지: 터미널에서 rosbridge_server 실행 화면](./image_launch_rosbridge_server_20251125.png)
+![이미지: 터미널에서 rosbridge_server 실행 화면](./images/image_launch_rosbridge_server_20251125.png)
 
 ### 2.2 Windsurf 설정 (mcp_config.json)
 
@@ -58,11 +59,11 @@ Windsurf가 로컬의 MCP 서버를 인식할 수 있도록 `mcp_config.json`을
 }
 ```
 
-![이미지: Windsurf MCP Server 설정 파일 화면](windsurf_mcp_config_20251125.png)
+![이미지: Windsurf MCP Server 설정 파일 화면](./images/windsurf_mcp_config_20251125.png)
 
 설정을 저장하고 Windsurf를 재시작합니다. Cascade(Chat) 창에 **"사용 가능한 MCP 도구가 있어?"** 라고 물어보면, `ros-mcp-server`가 연동되었음을 확인해 주고 사용할 수 있는 기능들을 나열해 줍니다.
 
-![이미지: ROS-MCP-Server 연동 성공 표시 대화 화면](./ros-mcp-server-connection-success.png.png)
+![이미지: ROS-MCP-Server 연동 성공 표시 대화 화면](./images/ros-mcp-server-connection-success.png.png)
 
 ## 3. 실습: RealSense 카메라 데이터 분석
 
@@ -76,7 +77,7 @@ Windsurf가 로컬의 MCP 서버를 인식할 수 있도록 `mcp_config.json`을
 ros2 launch realsense2_camera rs_launch.py camera_namespace:='/' align_depth.enable:=true rgb_camera.color_profile:=640x360x30
 ```
 
-![realsense launch 실행한 터미널 화면](launch_realsense_terminal_20251125.png)
+![realsense launch 실행한 터미널 화면](./images/launch_realsense_terminal_20251125.png)
 
 노드가 실행된 상태에서 Windsurf에게 ROS 시스템 상태를 물어봅니다.
 
@@ -92,7 +93,7 @@ ros2 launch realsense2_camera rs_launch.py camera_namespace:='/' align_depth.ena
 > - `/camera/depth/image_rect_raw`
 > - ... (총 14개 토픽, 47개 서비스 감지)
 
-![이미지: Windsurf 채팅창에서 ROS 2 System Status와 Active Topics 목록이 출력된 화면](windsurf_ros2_response_20251125.png)
+![이미지: Windsurf 채팅창에서 ROS 2 System Status와 Active Topics 목록이 출력된 화면](./images/windsurf_ros2_response_20251125.png)
 
 ### 3.2 이미지 데이터 읽기 및 상황 분석 (Multimodal)
 
@@ -115,13 +116,13 @@ Windsurf(MCP)가 해당 토픽의 이미지를 캡처하여 분석한 결과는 
 
 살짝 틀리긴 했지만 실제로 카메라 앞에 **동그란 검정 마이크**가 있었는데, 모델은 이를 '렌즈 캡'이나 유사한 '검은 원형 물체'로 추정했습니다. 완벽하진 않지만, **이미지 토픽을 구독하여 물체의 형태와 색상, 작업자의 자세를 텍스트로 묘사**해 냈다는 점이 인상적입니다.
 
-![이미지: Windsurf가 분석한 텍스트 답변](response_specified_by_llm_20251125.png)
+![이미지: Windsurf가 분석한 텍스트 답변](./images/response_specified_by_llm_20251125.png)
 
 실행된 MCP Tool의 상세 로그를 열어보면, 실제로 `subscribe_once` 함수가 호출되고 이미지가 분석된 과정을 확인할 수 있습니다.
 
-![이미지: Cascade(Chat)에서 실행된 MCP Tool 로그 확인](checking_mcp_tool_log_20251125.png)
+![이미지: Cascade(Chat)에서 실행된 MCP Tool 로그 확인](./images/checking_mcp_tool_log_20251125.png)
 
-![이미지: 실제 RealSense가 보고 있던 화면 (비교용)](realsense_topic_image_20251125.png)
+![이미지: 실제 RealSense가 보고 있던 화면 (비교용)](./images/realsense_topic_image_20251125.png)
 (실제 카메라 토픽 이미지)
 
 ## 4. 마치며
