@@ -6,8 +6,6 @@
 
 
 ## Bug Fix
-- [ ] `site.config.ts`의 placeholder 값 수정 (author, title, description, url이 템플릿 기본값 그대로) — **Critical**
-- [ ] 소셜 링크가 원본 템플릿 GitHub 주소를 가리킴 (`SocialList.astro`) — **Critical**
 - [ ] 이미지 파일명 이중 확장자: `ros-mcp-server-connection-success.png.png`
 - [ ] `Header.astro`에 중복 class `text-accent` (line 73-74)
 
