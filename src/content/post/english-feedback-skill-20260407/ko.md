@@ -6,7 +6,7 @@ tags:
   - claude code
   - ai
   - productivity
-draft: true
+draft: false
 pinned: false
 ---
 
@@ -55,6 +55,8 @@ Then answer the question below.
 Yes, it's working! ...
 ```
 
+![영어 입력에 대한 교정 피드백이 표시된 Claude Code 터미널 화면](./images/screenshot-english-correction.png)
+
 **한국어로 질문:**
 ```
 > 이 함수가 어떻게 동작하는지 설명해줘
@@ -62,10 +64,12 @@ Yes, it's working! ...
 
 **Claude의 응답:**
 ```
+> ...
 > **Translated:** Can you explain how this function works?
-
-This function takes a...
+> ...
 ```
+
+![한국어 입력이 영어로 번역되어 피드백되는 Claude Code 터미널 화면](./images/screenshot-korean-translation.png)
 
 잘 동작한다. 그런데 여기서 욕심이 생겼다. **교정 받은 내용을 자동으로 기록해서 나중에 복습할 수 있으면 좋겠다.**
 
@@ -136,25 +140,35 @@ mkdir -p feedbacks
 [ ! -f "$FILE" ] && echo "# English Feedback - $(date +%Y-%m-%d)" > "$FILE"
 ```
 
+![Claude Code가 english-feedback 스킬을 invoke하여 피드백을 feedbacks 파일에 기록 요청하는 화면](./images/screenshot-skill-invoke.png)
+
 그리고 매 교정마다 시간과 함께 기록:
 
 ```markdown
 # English Feedback - 2026-04-07
 
 ---
-### 09:15
-**Original:** I want to asking you about the code
-**Corrected:** I want to ask you about the code
-**Notes:** "want to" takes the base form of the verb.
+### 20:45
+**Original:** hello how are you today?
+**Corrected:** Hello, how are you today?
+**Notes:** Capitalize the first word of a sentence and add a comma after "Hello" to separate the greeting from the question.
 
 ---
-### 10:22
+### 21:26
+**Original:** I want to asking you about the code
+**Corrected:** I want to ask you about the code.
+**Notes:** After "want to," use the base form of the verb ("ask"), not the gerund ("asking").
+
+---
+### 21:28
 **Original (Korean):** 이 함수가 어떻게 동작하는지 설명해줘
 **Translated:** Can you explain how this function works?
-**Notes:** Added polite framing for natural English.
+**Notes:** "이 함수" = "this function"; "어떻게 동작하는지" = "how it works"; "설명해줘" = "please explain."
 ```
 
 하루가 끝나면 그날의 교정 내용을 한눈에 볼 수 있다.
+
+![feedbacks 디렉토리에 자동 생성된 일별 피드백 파일 내용](./images/screenshot-feedback-log.png)
 
 ---
 
@@ -204,6 +218,8 @@ I want to make light agent skill like this english feedback feature.
 
 Sure, let's plan that out...
 ```
+
+![스킬 적용 후 영어 피드백 블록과 함께 실제 업무 응답이 이어지는 화면](./images/screenshot-skill-in-action.png)
 
 그리고 `feedbacks/2026-04-07.md`를 열어보면 이 교정이 자동으로 기록되어 있다.
 
