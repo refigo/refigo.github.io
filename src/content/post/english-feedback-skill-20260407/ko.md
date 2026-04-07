@@ -1,5 +1,5 @@
 ---
-title: "Claude Code로 영어 교정 스킬 만들기"
+title: "Claude Code로 영어 교정 스킬 만들기: 개발자의 영어 아웃풋 훈련기"
 description: "개발 워크플로우에 영어 피드백을 녹여넣는 방법. CLAUDE.md 프로토타이핑부터 스킬 시스템 활용, 일별 피드백 자동 기록까지의 과정을 공유합니다."
 publishDate: "2026-04-07"
 tags:
