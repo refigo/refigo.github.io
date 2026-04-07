@@ -7,5 +7,7 @@
 ## Feature
 
 ## Content
+- [x] [Claude Code 영어 교정 스킬 만들기](details/content-english-feedback-skill-20260407.md) — 발행 완료 (2026-04-07)
+  - https://refigo.github.io/posts/english-feedback-skill-20260407/ko/
 
 ## Chore
