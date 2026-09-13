@@ -1,9 +1,8 @@
 ---
 title: "Set daemon for seeed respeaker array mic as input device"
-publishDate: "27 January 2023"
-description: "An example post for Astro Cactus, detailing how to add a custom social image card in the frontmatter"
-tags: ["example", "blog", "image"]
-ogImage: "/social-card.png"
+publishDate: "05 September 2025"
+description: "Keep the Seeed ReSpeaker 4-mic array as the default input device with a check script and a systemd user timer"
+tags: ["linux", "audio", "systemd"]
 ---
 
 ReSpeaker(Seeed) 마이크가 기본 입력 장치가 아니면 자동으로 바꿔주는 스크립트와, 이를 5분 주기로 실행하는 systemd **user** 타이머 구성입니다. (마이크/오디오 컨트롤은 보통 **사용자 세션**에서 동작하므로 root system 서비스보다 _user 서비스_가 안전합니다.)
