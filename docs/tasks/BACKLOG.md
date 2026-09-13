@@ -4,6 +4,10 @@
 
 - [ ] Physical AI 핵심 논문 리뷰 스터디 내용 컨텐츠화 (시리즈 형태로? ex. RT2, PaLM-E, Gato, VIMA 등)
 
+- [ ] 실제 블로그 사이트에서 Post Content의 Width가 좁은 감이 있음. 좀 더 넓게 조정 필요
+
+- [ ] 댓글 연동 기능 추가 (어떤 방식이 좋을까? 조사 필요)
+
 
 ## Bug Fix
 - [ ] 이미지 파일명 이중 확장자: `ros-mcp-server-connection-success.png.png`
